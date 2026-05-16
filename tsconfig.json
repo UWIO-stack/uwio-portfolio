@@ -1,0 +1,21 @@
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Work from "@/components/Work";
+import Journal from "@/components/Journal";
+import Contact from "@/components/Contact";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen w-full bg-background text-foreground overflow-x-hidden">
+      <Navigation />
+      <main>
+        <Hero />
+        <About />
+        <Work />
+        <Journal />
+        <Contact />
+      </main>
+    </div>
+  );
+}

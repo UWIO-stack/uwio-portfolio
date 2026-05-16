@@ -1,0 +1,142 @@
+export interface Project {
+  id: number;
+  slug: string;
+  title: string;
+  category: string;
+  year: string;
+  client: string;
+  role: string;
+  services: string[];
+  tagline: string;
+  desc: string;
+  challenge: string;
+  approach: string;
+  outcome: string;
+  heroImage: string;
+  images: string[];
+}
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    slug: "vela-studio",
+    title: "Vela Studio",
+    category: "Web Design",
+    year: "2025",
+    client: "Vela Studio",
+    role: "Lead Designer",
+    services: ["Art Direction", "Web Design", "Design System"],
+    tagline: "A sustainable fashion label reimagined for the digital age.",
+    desc: "Full website design for a sustainable fashion label — bold colour blocking, editorial grid, and a fluid product configurator.",
+    challenge: "Vela needed a digital presence as considered as their physical products. The challenge was translating their tactile, sustainable ethos into a fast, immersive web experience without losing editorial depth.",
+    approach: "We started with the material — bold colour fields that mirror the brand's seasonal palettes. The grid system references print layout logic: wide margins, large lead images, deliberate whitespace. The product configurator was designed as an editorial moment rather than a utility.",
+    outcome: "Launch saw a 3× increase in session duration and a 40% uplift in direct enquiries. The site was shortlisted for Awwwards Site of the Day.",
+    heroImage: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1600&h=900&fit=crop&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&h=800&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=900&h=1100&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=900&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1400&h=700&fit=crop&q=80",
+    ],
+  },
+  {
+    id: 2,
+    slug: "chroma",
+    title: "Chroma",
+    category: "Brand Identity",
+    year: "2025",
+    client: "Chroma Agency",
+    role: "Brand Director",
+    services: ["Brand Identity", "Motion Design", "Guidelines"],
+    tagline: "A visual identity built from light, colour, and motion.",
+    desc: "Complete visual identity for a creative agency — logotype, colour system, motion guidelines and launch campaign.",
+    challenge: "Chroma needed an identity that demonstrated the very capabilities they sell. Generic agency branding wasn't an option — the mark itself needed to be the argument.",
+    approach: "The logotype is built from a single geometric module that refracts across contexts — print, screen, motion. The colour system isn't fixed: it shifts by medium and season, always coherent, never static. Motion guidelines were defined as a first-class deliverable.",
+    outcome: "The identity launched to immediate recognition in the design community, featured in Brand New and It's Nice That within the first week.",
+    heroImage: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1600&h=900&fit=crop&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1400&h=800&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=900&h=1100&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=900&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1400&h=700&fit=crop&q=80",
+    ],
+  },
+  {
+    id: 3,
+    slug: "pulse-health",
+    title: "Pulse Health",
+    category: "Web Design",
+    year: "2024",
+    client: "Pulse Health Ltd.",
+    role: "Design Lead",
+    services: ["Web Design", "Design System", "Prototyping"],
+    tagline: "Health technology that feels human.",
+    desc: "Marketing site and design system for a digital health startup — vivid gradient language meets clean data UI.",
+    challenge: "Health tech often defaults to cold, clinical aesthetics. Pulse needed to feel credible to medical professionals while remaining warm and accessible to everyday users.",
+    approach: "A dual-mode design system: a structured data layer for clinical users, a gradient-rich marketing layer for consumers. The gradient language — warm amber to cool violet — became the brand signature, carrying emotional warmth without sacrificing precision.",
+    outcome: "Series A fundraising materials built on the new system. The site has become a reference point for warm health-tech design in the startup community.",
+    heroImage: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1600&h=900&fit=crop&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1400&h=800&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=900&h=1100&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=900&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1400&h=700&fit=crop&q=80",
+    ],
+  },
+  {
+    id: 4,
+    slug: "nord",
+    title: "Nord",
+    category: "Brand Identity",
+    year: "2024",
+    client: "Nord",
+    role: "Creative Director",
+    services: ["Brand Identity", "Packaging", "Web Design"],
+    tagline: "Scandinavian clarity. Seasonal colour.",
+    desc: "Brand identity, packaging and web presence for a Scandinavian food & lifestyle brand with a vibrant seasonal palette.",
+    challenge: "Nord needed to communicate Nordic authenticity without resorting to clichés — no pine trees, no fjords. The brand had to feel genuinely Scandinavian through restraint, material intelligence, and a seasonal palette.",
+    approach: "The identity is built around a four-season colour system: each quarter the brand shifts palette — spring greens, summer whites, autumn ambers, winter blues — all anchored by a single geometric wordmark that remains constant. Packaging uses minimal print with one-colour hits.",
+    outcome: "Stocked in 140 stores across Northern Europe within six months of launch. The seasonal palette system has since become a case study in brand flexibility.",
+    heroImage: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1600&h=900&fit=crop&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1400&h=800&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&h=1100&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=900&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=1400&h=700&fit=crop&q=80",
+    ],
+  },
+  {
+    id: 5,
+    slug: "spectral",
+    title: "Spectral",
+    category: "Web Design",
+    year: "2023",
+    client: "Spectral Collective",
+    role: "Lead Designer & Developer",
+    services: ["Art Direction", "Web Design", "Motion"],
+    tagline: "Sound made visible.",
+    desc: "Award-winning website for a music production collective — immersive full-colour visuals, audio-reactive UI.",
+    challenge: "Spectral is a collective defined by sound — the website needed to translate that into something you could feel visually. Static pages weren't going to cut it.",
+    approach: "The site is built around audio reactivity: waveform visualisations, tempo-synced transitions, and colour fields that shift in response to the current track. Every element is in motion. The typography is oversized and gestural — reading like liner notes, not a website.",
+    outcome: "Awwwards Site of the Day and FWA of the Day. The site has been referenced in three major design publications and contributed directly to two major label partnerships.",
+    heroImage: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1600&h=900&fit=crop&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1400&h=800&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=900&h=1100&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=900&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1400&h=700&fit=crop&q=80",
+    ],
+  },
+];
+
+export function getProjectBySlug(slug: string): Project | undefined {
+  return projects.find((p) => p.slug === slug);
+}
+
+export function getAdjacentProjects(slug: string): { prev: Project | null; next: Project | null } {
+  const idx = projects.findIndex((p) => p.slug === slug);
+  return {
+    prev: idx > 0 ? projects[idx - 1] : null,
+    next: idx < projects.length - 1 ? projects[idx + 1] : null,
+  };
+}
